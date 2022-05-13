@@ -1452,6 +1452,9 @@ Subscribe
   border-color: #2a2a2a;
   border-radius: 0px;
 }
+.subscribe h1{
+  padding: 40px 15px;
+}
 
 .subscribe form button {
   width: 44px;
@@ -1578,7 +1581,8 @@ Products Page
 .page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/products-page-heading.jpg);
+  background-image: url(../images/prod-cover-img.webp);
+  opacity: 1;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
