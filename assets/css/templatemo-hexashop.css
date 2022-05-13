@@ -232,7 +232,6 @@ header
 }
 
 .header-area {
-  border-bottom: 3px dotted #eee;
   box-shadow: none;
   background-color: #fff;
   position: absolute;
@@ -650,10 +649,12 @@ banner
 --------------------------------------------- 
 */
 
-.main-banner {
-  border-bottom: 3px dotted #eee;
-  padding-top: 160px;
-  padding-bottom: 30px;
+.main-img{
+  padding: 0;
+}
+.main-banner img{
+  height: 30rem;
+  object-fit: cover;  
 }
 
 .main-banner .left-content .thumb img {
@@ -1311,6 +1312,7 @@ Explore
 
 #explore img {
   width: 100%;
+  height: 255px;
   overflow: hidden;
 }
 
@@ -1904,7 +1906,22 @@ Single Product Page
  .quantity.buttons_added .plus:focus {
   outline: none; }
 
-
+/* Code */
+.product_catalog h1{
+  padding: 30px 15px;
+}
+.catalog_box{
+  width: 18%;
+  text-align: center;
+}
+.catalog_box img{
+  width: 10rem;
+  height: 10rem;
+  padding-bottom: 15px;
+}
+.catalog_box .text{
+  display: block;
+}
 
 /* 
 ---------------------------------------------
@@ -2292,6 +2309,10 @@ responsive
   }
   footer h4 {
     margin-top: 30px;
+  }
+  .catalog_box{
+    width: 49%;
+    margin-bottom: 20px;
   }
 }
 
