@@ -2437,9 +2437,6 @@ responsive
     margin-bottom: 30px;
   }
 
-  #explore .right-content .types {
-    margin-top: 30px;
-  }
 
   .subscribe input {
     margin-bottom: 15px;
@@ -2470,6 +2467,31 @@ responsive
 }
 
 @media (max-width: 767px) {
+  .header-area .main-nav .logo {
+    text-align: left;
+  }  
+
+  #explore .leather, .first-image, .second-image, .types {
+    height: 255px;  
+    
+  }
+
+  #explore .leather h4{
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #explore .types h4{
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #catalog .item .down-content h4{
+    text-align: center;
+    padding:0 0  40px !important;
+  }
+  
   .main-banner .left-content .thumb .inner-content {
     left: 50%;
     top: 47.5%;
