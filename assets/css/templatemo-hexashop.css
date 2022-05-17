@@ -2404,11 +2404,30 @@ responsive
   .main-banner .right-content .right-first-image .thumb .hover-content p {
     display: none;
   }
+  #catalog .item .thumb img{
+    width: 100%;
+  }
 }
 
 @media (max-width: 992px) {
   .main-banner .right-content .right-first-image .thumb .hover-content p {
     display: block;
+  }
+  #catalog .item .thumb{
+    text-align: center
+  }
+  #catalog .item .thumb img{
+    width: 60%;
+  }
+  \
+  #products .item .down-content h4{
+    text-align: center !important;
+  }
+  #products .item .thumb{
+    text-align: center;
+  }
+  #products .item .thumb img{
+    width: 60%;
   }
 
   .header-area .main-nav .nav li.submenu:after {
