@@ -95,7 +95,7 @@
     <section class="section high_gross" id="" style="margin-top:60px">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 high_img">
                     <img src="assets/images/highgross-product.jpeg" style="width:100%" alt="">
                 </div>
                 <div class="col-lg-6">
@@ -140,19 +140,19 @@
             </div>
             <div class="row">
                 <div class="catalog_box_high col-lg-2 col-6 text-center">
-                    <img src="assets/images/HighGlossColors/Y65-Evora.png" alt="" width="100%">
+                    <img class="myImg" src="assets/images/HighGlossColors/Y65-Evora.png" alt="Y65 Evora" width="100%">
                     <span class="text">Y65 Evora</span>
                 </div>
                 <div class="catalog_box_high col-lg-2 col-6 text-center">
-                    <img src="assets/images/HighGlossColors/H41-IceWhite.png" alt="" width="100%">
+                    <img class="myImg" src="assets/images/HighGlossColors/H41-IceWhite.png" alt="H41 Ice White" width="100%">
                     <span class="text">H41 Ice White</span>
                 </div>
                 <div class="catalog_box_high col-lg-2 col-6 text-center">
-                    <img src="assets/images/HighGlossColors/H08-Black.png" alt="" width="100%">
+                    <img class="myImg" src="assets/images/HighGlossColors/H08-Black.png" alt="H08 Black" width="100%">
                     <span class="text">H08 Black</span>
                 </div>
                 <div class="catalog_box_high col-lg-2 col-6 text-center">
-                    <img src="assets/images/HighGlossColors/Y66-MetalicWhitePearl.png" alt="" width="100%">
+                    <img class="myImg" src="assets/images/HighGlossColors/Y66-MetalicWhitePearl.png" alt="Y66 Metalic White Pearl" width="100%">
                     <span class="text">Y66 Metalic White Pearl</span>
                 </div>
 
@@ -161,6 +161,12 @@
         </div>
         </div>
     </section>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
     <!-- Product Catalogs Ends -->
 
 
@@ -217,6 +223,7 @@
     <script src="assets/js/lightbox.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/quantity.js"></script>
+    <script src="assets/js/img_popup.js"></script>
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
