@@ -669,7 +669,7 @@ header
   }
 
   .header-area.header-sticky .nav {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
   }
 
   .header-area .main-nav .nav li {
@@ -2083,6 +2083,9 @@ Single Product Page
   font-weight: 500;
   color: #fff;
   font-style: italic;
+}
+#catalog .item {
+  padding-bottom: 30px;
 }
 
 
